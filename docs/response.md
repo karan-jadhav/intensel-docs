@@ -15,6 +15,7 @@ Response
 	'loss_data': [...]
 }
 ```
+## Single Asset Response:
 ### Generic Data
 Response
 ```
@@ -110,6 +111,46 @@ Response
         'latitude': '18.94136785',
         'longitude': '72.83526733695547',
         'name': 'Mumbai CSMT (Suburban), Dr Dadabhai Naoroji Road'
+	}
+]
+```
+## Bulk Assets Response:
+### Generic Data
+Response Will be saame as Single asset but in nested format for each asset
+
+[Single Asset Generic Response](/docs/response#generic-data)
+```
+[
+	{
+		...generic Data for asset 1
+	},
+	{
+		...generic Data For asset 2
+	},
+	.
+	.
+	.
+	{
+		...generic Data For asset n
+	}
+]
+```
+
+### Loss And Risks Data
+[Single Asset Loss Response](/docs/response#loss-and-risks-data)
+```
+[
+	{
+		...Loss Data for asset 1
+	},
+	{
+		...Loss Data For asset 2
+	},
+	.
+	.
+	.
+	{
+		...Loss Data For asset n
 	}
 ]
 ```
