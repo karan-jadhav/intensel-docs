@@ -3,11 +3,11 @@ title: Getting Started
 slug: /
 ---
 
-## Step 0: Endpoint for API calls
+## Step 0: Base Endpoint for API calls
 
 
 
-> https://api.intensel.live/apiv1/data/
+> https://api.intensel.live/apiv1/
 
 
 ## Step 1: Prepare API key
@@ -23,7 +23,7 @@ Authorization: Api-Key <API_KEY>
 
 ```
 import requests
-URL = "https://api.intensel.live/apiv1/data/"
+URL = "https://api.intensel.live/apiv1/create/"
 headers = {"Authorization":"Api-Key API_KEY"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
