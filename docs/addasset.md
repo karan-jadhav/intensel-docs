@@ -8,9 +8,9 @@ slug: /addasset
 Using This API You Can Add Single Location To Get Analyzed And Added To Your Project
 
 Endpoint:
-```
-https://api.itensel.live/api/data/add/
-```
+
+> https://api.itensel.live/api/data/add/
+
 ### Api Parameters
 
 | parameters        | value                             |

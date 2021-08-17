@@ -8,9 +8,9 @@ slug: /create
 Project Contains All Your Assets And It Allows To Analyze All Of Your Submitted Locations At Once
 
 Endpoint:
-```
-https://api.itensel.live/api/data/create/
-```
+
+> https://api.itensel.live/api/data/create/
+
 
 | parameters        | value                             |
 | ---------------- | --------------------------------- |

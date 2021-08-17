@@ -8,9 +8,9 @@ slug: /addbulkassets
 Using This API You Can Add Multiple Location To Get Analyzed And Added To Your Project In One Single API Call
 
 Endpoint:
-```
-https://api.itensel.live/api/data/add/bulk/
-```
+
+> https://api.itensel.live/api/data/add/bulk/
+
 
 ### Api Parameters
 
