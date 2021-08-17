@@ -23,9 +23,9 @@ Authorization: Api-Key <API_KEY>
 
 ```
 import requests
-URL = "https://dev.intensel.live/api/data/"
+URL = "https://dev.intensel.live/api/data/create/"
 headers = {"Authorization":"Api-Key API_KEY"}
-payload = {"lat":19.041418976652057, "lon":73.07692536557195}
+payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
 data = response.json()
 ```
