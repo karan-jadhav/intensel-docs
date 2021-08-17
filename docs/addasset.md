@@ -9,7 +9,7 @@ Using This API You Can Add Single Location To Get Analyzed And Added To Your Pro
 
 Endpoint:
 
-> https://api.itensel.live/api/data/add/
+> https://api.itensel.live/apiv1/data/add/
 
 ### Api Parameters
 
@@ -20,7 +20,7 @@ Endpoint:
 
 ### Sample Request
 ```
-URL: https://api.itensel.live/api/data/add/
+URL: https://api.itensel.live/apiv1/data/add/
 data: {
 		"project_name": "My Awesome Project",
         "asset_data" : {
@@ -50,7 +50,7 @@ data: {
 
 ```
 import requests
-URL = "https://api.itensel.live/api/data/add/"
+URL = "https://api.itensel.live/apiv1/data/add/"
 headers = {"Authorization":"Api-Key API_KEY"}
 payload = {
             "project_name": "My Awesome Project",

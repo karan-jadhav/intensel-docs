@@ -9,7 +9,7 @@ Using This API You Can Add Multiple Location To Get Analyzed And Added To Your P
 
 Endpoint:
 
-> https://api.itensel.live/api/data/getanalysis/
+> https://api.itensel.live/apiv1/data/getanalysis/
 
 
 ### Api Parameters
@@ -20,7 +20,7 @@ Endpoint:
 
 ### Sample Request
 ```
-URL: https://api.itensel.live/api/getanalysis/
+URL: https://api.itensel.live/apiv1/getanalysis/
 data: {
 		"project_name": "My Awesome Project",
     }
@@ -29,7 +29,7 @@ data: {
 
 ```
 import requests
-URL = "https://api.itensel.live/api/data/getanalysis/"
+URL = "https://api.itensel.live/apiv1/data/getanalysis/"
 headers = {"Authorization":"Api-Key API_KEY"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
