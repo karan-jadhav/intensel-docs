@@ -7,7 +7,7 @@ slug: /
 
 
 
-> https://dev.intensel.live/apiv1/data/
+> https://api.intensel.live/apiv1/data/
 
 
 ## Step 1: Prepare API key
@@ -23,7 +23,7 @@ Authorization: Api-Key <API_KEY>
 
 ```
 import requests
-URL = "https://dev.intensel.live/apiv1/data/"
+URL = "https://api.intensel.live/apiv1/data/"
 headers = {"Authorization":"Api-Key API_KEY"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
