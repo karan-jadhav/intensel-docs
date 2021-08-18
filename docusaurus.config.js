@@ -24,8 +24,8 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://intensel.liv",
-          label: "<- Back To Intensel",
+          href: "https://intensel.live",
+          label: "Back To Intensel",
           position: "left",
         },
         // { to: "blog", label: "Blog", position: "left" },
