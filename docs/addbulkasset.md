@@ -9,7 +9,7 @@ Using This API You Can Add Multiple Location To Get Analyzed And Added To Your P
 
 Endpoint:
 
-> https://api.itensel.live/apiv1/add/bulk/
+> https://api.intensel.live/apiv1/add/bulk/
 
 
 ### Api Parameters
@@ -21,7 +21,7 @@ Endpoint:
 
 ### Sample Request
 ```
-URL: https://api.itensel.live/apiv1/add/
+URL: https://api.intensel.live/apiv1/add/
 data: {
 		"project_name": "My Awesome Project",
         "asset_data" : [
@@ -57,7 +57,7 @@ asset_data is Same As Single API
 
 ```
 import requests
-URL = "https://api.itensel.live/apiv1/add/bulk/"
+URL = "https://api.intensel.live/apiv1/add/bulk/"
 headers = {"Authorization":"Api-Key API_KEY"}
 payload = {
             "project_name": "My Awesome Project",
