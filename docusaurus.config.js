@@ -23,6 +23,11 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
+        {
+          href: "https://intensel.liv",
+          label: "<- Back To Intensel",
+          position: "left",
+        },
         // { to: "blog", label: "Blog", position: "left" },
         // {
         //   href: "https://github.com/facebook/docusaurus",
