@@ -9,7 +9,7 @@ Project Contains All Your Assets And It Allows To Analyze All Of Your Submitted 
 
 Endpoint:
 
-> https://api.intensel.live/apiv1/create/
+> https://devapi.intensel.live/apiv1/create/
 
 
 | parameters        | value                             |
@@ -18,7 +18,7 @@ Endpoint:
 
 ### Sample Request
 ```
-URL: https://api.intensel.live/apiv1/create/
+URL: https://devapi.intensel.live/apiv1/create/
 data: {
       "project_name": "My Awesome Project",
       "variables":["Rainfall Flood", "Extreme Heat"],
@@ -45,7 +45,7 @@ Variable Name Are Climate Variables Which You Wish To Analyze
 
 ```
 import requests
-URL = "https://api.intensel.live/apiv1/create/"
+URL = "https://devapi.intensel.live/apiv1/create/"
 headers = {"Authorization":"Api-Key API_KEY"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
