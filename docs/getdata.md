@@ -3,9 +3,9 @@ title: Get Analysis
 slug: /getanalysis
 ---
 
-## Add Multiple Asset To Project
+## Get Hazard Data
 
-Using This API You Can Add Multiple Location To Get Analyzed And Added To Your Project In One Single API Call
+Using This API You Can get analysed hazard data for your selected locations of any specific Project
 
 Endpoint:
 
@@ -41,7 +41,7 @@ data = response.json()
 status: HTTP 201
 {"RCP_{rcp}-YEAR_{year}":{data}}
 ```
-\* Returned Data Will Be Risk Score Out Of 100
+\* Returned Data Will Be Hazard Data Of Selected Variable For All RCP Years
 
 You Wll Get Data For Following RCPS And Years
 
