@@ -9,7 +9,7 @@ Using This API You Can get analysed hazard data for your selected locations of a
 
 Endpoint:
 
-> https://devapi.intensel.live/apiv1/getanalysis/
+> https://devapi.intensel.live/apiv1/getanalysis/hazard/
 
 
 ### Api Parameters
@@ -20,7 +20,7 @@ Endpoint:
 
 ### Sample Request
 ```
-URL: https://devapi.intensel.live/apiv1/getanalysis/
+URL: https://devapi.intensel.live/apiv1/getanalysis/hazard/
 data: {
 		"project_name": "My Awesome Project",
     }
@@ -29,7 +29,40 @@ data: {
 
 ```
 import requests
-URL = "https://devapi.intensel.live/apiv1/getanalysis/"
+URL = "https://devapi.intensel.live/apiv1/getanalysis/hazard/"
+headers = {"Authorization":"Api-Key API_KEY"}
+payload = {"project_name": "My Awesome Project"}
+response = requests.post(URL, json=payload, headers=headers)
+data = response.json()
+```
+
+## Get Loss Data
+
+Using This API You Can get analysed Dollar Loss data for your selected locations of any specific Project
+
+Endpoint:
+
+> https://devapi.intensel.live/apiv1/getanalysis/loss/
+
+
+### Api Parameters
+
+| parameters        | value                             |
+| ---------------- | --------------------------------- |
+| project_name              | Name Of thhe Project    |
+
+### Sample Request
+```
+URL: https://devapi.intensel.live/apiv1/getanalysis/loss/
+data: {
+		"project_name": "My Awesome Project",
+    }
+```
+### Code Example
+
+```
+import requests
+URL = "https://devapi.intensel.live/apiv1/getanalysis/loss/"
 headers = {"Authorization":"Api-Key API_KEY"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
