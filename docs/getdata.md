@@ -16,7 +16,7 @@ Endpoint:
 
 | parameters        | value                             |
 | ---------------- | --------------------------------- |
-| project_name              | Name Of thhe Project    |
+| project_name              | Name Of the Project    |
 
 ### Sample Request
 ```
@@ -30,7 +30,7 @@ data: {
 ```
 import requests
 URL = "https://devapi.intensel.live/apiv1/getanalysis/hazard/"
-headers = {"Authorization":"Api-Key API_KEY"}
+headers = {"Authorization":"Token auth_token"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
 data = response.json()
@@ -63,7 +63,7 @@ data: {
 ```
 import requests
 URL = "https://devapi.intensel.live/apiv1/getanalysis/loss/"
-headers = {"Authorization":"Api-Key API_KEY"}
+headers = {"Authorization":"Token auth_token"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
 data = response.json()

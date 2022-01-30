@@ -3,7 +3,7 @@ module.exports = {
     {
       type: "category",
       label: "Intensel Docs",
-      items: ["getting-started", "Create", "addasset" , "addbulkasset", "getdata"],
+      items: ["getting-started", "authentication", "Create", "addasset" , "addbulkasset", "getdata"],
     },
   ],
 };

@@ -46,7 +46,7 @@ Variable Name Are Climate Variables Which You Wish To Analyze
 ```
 import requests
 URL = "https://devapi.intensel.live/apiv1/create/"
-headers = {"Authorization":"Api-Key API_KEY"}
+headers = {"Authorization":"Token auth_token"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
 data = response.json()

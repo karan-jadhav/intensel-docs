@@ -58,7 +58,7 @@ asset_data is Same As Single API
 ```
 import requests
 URL = "https://devapi.intensel.live/apiv1/add/bulk/"
-headers = {"Authorization":"Api-Key API_KEY"}
+headers = {"Authorization":"Token auth_token"}
 payload = {
             "project_name": "My Awesome Project",
             "asset_data" : [

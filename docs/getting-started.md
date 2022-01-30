@@ -12,10 +12,10 @@ slug: /
 
 ## Step 1: Prepare API key
 
-You have to pass api key in headers for authorization
+You have to pass Auth TOKEN in headers for authorization
 
 ```
-Authorization: Api-Key <API_KEY>
+Authorization: Token <API_KEY>
 ```
 
 
@@ -24,13 +24,13 @@ Authorization: Api-Key <API_KEY>
 ```
 import requests
 URL = "https://devapi.intensel.live/apiv1/create/"
-headers = {"Authorization":"Api-Key API_KEY"}
+headers = {"Authorization":"Token auth_token"}
 payload = {"project_name": "My Awesome Project"}
 response = requests.post(URL, json=payload, headers=headers)
 data = response.json()
 ```
 
-Make Sure to include API_KEY in headers for authentication
+Make Sure to include auth_token in headers for authentication
 
 ## Step 3: Done
 
